@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotes-wrapper {
+    padding: 40px;
+    width: 600px;
+    background-color: #9c9c9c;
+}
+
+.generate-btn {
+    margin: auto;
+    display: block;
+    padding: 20px 25px;
+    color: #fff;
+    background-color: cadetblue;
+    font-size: 25px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.dbl-quote i {
+    font-size: 80px;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.generated-quote {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    color: rgb(95, 79, 79);
+}
+
+.author-name {
+    float: right;
+    font-size: 25px;
+    color: rgb(133, 27, 27);
+}
